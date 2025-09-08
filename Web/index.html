@@ -1,14 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example title</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my webpage</p>
-    <script src="index.js"></script>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">Placeholder</div>
+      <button class="menu-toggle">&#9776;</button>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="english.html">English</a>
+        <a href="science.html">Science</a>
+        <a href="math.html">Math</a>
+
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <h1>Welcome to Placeholder</h1>
+      <p>The ultimate guide to success</p>
+      <a href="#about" class="cta-button">Discover More</a>
+    </header>
+
+    <!-- About Section (For Index Page) -->
+    <section class="about" id="about">
+      <div class="about-text">
+        <h2>What is Placeholder?</h2>
+        <p>
+          text about the website.
+        </p>
+      </div>
+      <div class="about-image">
+        <img
+          src="https://cdn.glitch.global/1139febc-f688-4988-8a03-5b85f48eb447/myach-sport-brosok.jpg?v=1746670659099"
+          alt="Placeholder Concept"
+          style="width: 60%"
+        />
+      </div>
+    </section>
+
+    <!-- Events Preview -->
+    <section class="preview-events">
+      <h2>upcoming study groups</h2>
+      <p>There is a wide variety of avalable tutor and study classes</p>
+      <div class="features">
+        <div class="feature-box">
+          <h3>English</h3>
+          <p>Text</p>
+        </div>
+        <div class="feature-box">
+          <h3>Math</h3>
+          <p>Text</p>
+        </div>
+        <div class="feature-box">
+          <h3>Science</h3>
+          <p>Text</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Preview -->
+    <section class="faq-preview">
+      <div class="faq-container">
+        </div>
+        <div class="faq-content">
+          <h2>Common Questions</h2>
+          <details>
+            <summary>Is the course free?</summary>
+            <p>Yes the course is entirely free.</p>
+          </details>
+          <details>
+            <summary>What are the advantages of online learning?</summary>
+            <p>Online learning has helped opened the door to education for people who previously couldn’t attend in-person institutions. Without having to go to a physical campus and with the freedom to watch lectures at any time, students with other commitments, e.g. family or work, can base their studies around their life. At UCEM, you can even decide how many modules you want to take per semester.</p>
+          </details>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Stay in the Loop</h2>
+      <p>
+        Subscribe for updates on upcoming events and or deals in the near future.
+      </p>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <img
+        src="https://cdn.glitch.global/1139febc-f688-4988-8a03-5b85f48eb447/SPCA_New_Zealand_logo.svg?v=1746570881906"
+        alt="SPCA"
+        style="width: 10%"
+      />
+      <img
+        src="https://cdn.glitch.global/1139febc-f688-4988-8a03-5b85f48eb447/Untitled-1.svg?v=1746571461941"
+        alt="Speck"
+        style="width: 10%"
+      />
+      <p>
+        &copy; 2025 Placeholder [&] SPCA. All rights reserved. SPCA NZ, Public domain,
+        via Wikimedia Commons. Apache Software Foundation, Apache License 2.0.https://cdn.glitch.global/1139febc-f688-4988-8a03-5b85f48eb447/myach-sport-brosok.jpg?v=1746670659099, https://cdn.glitch.global/1139febc-f688-4988-8a03-5b85f48eb447/SPCA_New_Zealand_logo.svg?v=1746570881906
+      </p>
+      <a href="#top" id="backToTop" title="Back to top">&#8679;</a>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
