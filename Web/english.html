@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>English Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: #f4f4f4;
+    }
+
+    /* Logo */
+    .logo {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      width: 180px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    /* Header/Nav */
+    header {
+      background: #ff0000;
+      color: #ffffff;
+      padding: 0.7em 0;
+      text-align: left;
+    }
+    nav {
+      background: #444;
+      padding: 1em 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Layout */
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .text-box {
+      background: #555;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .video-guide {
+      background: #333;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <div class="logo">LOGO</div>
+
+  <!-- Header -->
+  <header>
+    <h1>English Page</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="english.html">English</a>
+    <a href="math.html">Math</a>
+    <a href="science.html">Science</a>
+  </nav>
+
+  <!-- Content -->
+  <div class="container">
+    <div class="text-box">
+      <h2>Welcome!</h2>
+      <p>This is the English page. Add your content here.</p>
+    </div>
+    <div class="video-guide">
+      <h2>Video Guide</h2>
+      <p>Embed or link a tutorial video here.</p>
+    </div>
+    <div class="text-box">
+      <h2>Extra Content</h2>
+      <p>More information, exercises, or resources can go here.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Rangitoto College
+  </footer>
+
+</body>
+</html>
