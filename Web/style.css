@@ -67,7 +67,7 @@ ul {
 }
 
 .nav-links a:hover {
-  color: #1b00b4;
+  color: #695abd;
 }
 
 .menu-toggle {
@@ -114,7 +114,7 @@ ul {
 }
 
 .cta-button:hover {
-  background-color: #2500cc;
+  background-color: #88ff00;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -166,7 +166,7 @@ ul {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color: #00ccff;
+  color: #e5ff00;
 }
 
 .cta p {
@@ -186,7 +186,7 @@ ul {
 }
 
 .cta-button:hover {
-  background-color: #001faa;
+  background-color: #0025a0;
 }
 
 /* FOOTER */
@@ -296,7 +296,7 @@ footer {
 .newsletter h2 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #222;
+  color: #ff0000;
 }
 
 .faq-content details {
