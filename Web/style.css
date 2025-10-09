@@ -186,7 +186,7 @@ ul {
 }
 
 .cta-button:hover {
-  background-color: #0025a0;
+  background-color: #0e33ac;
 }
 
 /* FOOTER */
@@ -198,7 +198,7 @@ footer {
 }
 
 /* RESPONSIVE NAV */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .nav-links {
     display: none;
     flex-direction: column;
@@ -408,7 +408,7 @@ summary {
   text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .event-item, .community-impact {
     flex-direction: column-reverse;
     text-align: center;
