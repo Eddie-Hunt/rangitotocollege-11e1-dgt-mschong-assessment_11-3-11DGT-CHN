@@ -1,65 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Science Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            background: #f4f4f4;
-        }
-        header {
-            background: #05b423;
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            background: #444;
-            padding: 0.5em 0;
-            text-align: center;
-        }
-        nav a {
-            color: #ffffff;
-            margin: 0 1em;
-            text-decoration: none;
-        }
-        main {
-            max-width: 800px;
-            margin: 2em auto;
-            background: #fff;
-            padding: 2em;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Science | Study Central</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Science Page</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="english.html">English</a>
-        <a href="math.html">Math</a>
-        <a href="science.html">Science</a>
-    </nav>
-    <main>
-        <h2>Welcome!</h2>
-        <p>This is the Science page. Add your content here.</p>
-    </main>
-    <footer>
-        &copy; 2025 Rangitoto College
-    </footer>
+<body class="science-theme">
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="logo">Study Central</div>
+		<img src="logo.png" alt="Logo" style="width: 60%">
+		<button class="menu-toggle">&#9776;</button>
+		<div class="nav-links">
+			<a href="index.html">Home</a>
+			<a href="classes.html">Classes</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="english.html">English</a>
+			<a href="science.html" class="active">Science</a>
+			<a href="math.html">Math</a>
+		</div>
+	</nav>
+
+	<!-- Header -->
+	<header class="hero">
+		<h1>Science</h1>
+		<p>Explore the wonders of the natural world</p>
+	</header>
+
+	<!-- Content -->
+	<section class="about">
+		<div class="about-text">
+			<h2>About Science</h2>
+			<p>Placeholder section for science content — experiments, videos, and resources.</p>
+		</div>
+		<div class="about-image">
+			<img src="science-image.jpg" alt="Science" style="width: 60%">
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<a href="#top" id="backToTop" title="Back to top">&#8679;</a>
+		<p>&copy; 2025 Rangitoto College</p>
+	</footer>
+
+	<script src="script.js"></script>
 </body>
+</html>

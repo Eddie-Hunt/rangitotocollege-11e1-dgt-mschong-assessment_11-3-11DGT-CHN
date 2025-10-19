@@ -1,132 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Math Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      margin: 0; 
-      padding: 0; 
-      background: #f4f4f4;
-    }
-
-    /* Top bar (logo + nav) */
-    .top-bar {
-      display: flex;
-      align-items: center;
-      background: #0a5296;
-      color: #fff;
-    }
-    .logo {
-      background: #000;
-      color: #fff;
-      padding: 20px;
-      width: 180px;
-      text-align: center;
-      font-weight: bold;
-    }
-    nav {
-      flex-grow: 1;
-      background: #444;
-      text-align: center;
-      padding: 1em 0;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 1em;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* Page title */
-    header {
-      text-align: center;
-      padding: 1em;
-      color: #fff;
-      background: #0a5296;
-    }
-
-    /* Content grid */
-    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 20px;
-      padding: 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .text-box {
-      background: #555;
-      color: #fff;
-      padding: 40px;
-      text-align: center;
-    }
-
-    .video-guide {
-      background: #333;
-      color: #fff;
-      padding: 40px;
-      text-align: center;
-    }
-
-    /* Footer */
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1em 0;
-      margin-top: 20px;
-    }
-
-    /* Responsive */
-    @media (max-width: 900px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Math | Study Central</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="math-theme">
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="logo">Study Central</div>
+		<img src="logo.png" alt="Logo" style="width: 60%">
+		<button class="menu-toggle">&#9776;</button>
+		<div class="nav-links">
+			<a href="index.html">Home</a>
+			<a href="classes.html">Classes</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="english.html">English</a>
+			<a href="science.html">Science</a>
+			<a href="math.html" class="active">Math</a>
+		</div>
+	</nav>
 
-  <!-- Logo + Nav -->
-  <div class="top-bar">
-    <div class="logo">LOGO</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="english.html">English</a>
-      <a href="math.html">Math</a>
-      <a href="science.html">Science</a>
-    </nav>
-  </div>
+	<!-- Header -->
+	<header class="hero">
+		<h1>Mathematics</h1>
+		<p>Patterns, logic, and problem solving</p>
+	</header>
 
-  <!-- Header -->
-  <header>
-    <h1>Math Page</h1>
-  </header>
+	<!-- Content -->
+	<section class="features">
+		<div class="feature-box">
+			<h3>Algebra</h3>
+			<p>Placeholder for algebra-related resources.</p>
+		</div>
+		<div class="feature-box">
+			<h3>Statistics</h3>
+			<p>Placeholder for data and probability learning materials.</p>
+		</div>
+	</section>
 
-  <!-- Content -->
-  <div class="container">
-    <div class="text-box">
-      <h2>Stats</h2>
-      <p>Statistics content goes here.</p>
-    </div>
-    <div class="text-box">
-      <h2>Algebra</h2>
-      <p>Algebra content goes here.</p>
-    </div>
-    <div class="video-guide">
-      <h2>Video Guide</h2>
-      <p>Embed a tutorial video here.</p>
-    </div>
-  </div>
+	<!-- Footer -->
+	<footer>
+		<a href="#top" id="backToTop" title="Back to top">&#8679;</a>
+		<p>&copy; 2025 Rangitoto College</p>
+	</footer>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 Rangitoto College
-  </footer>
-
+	<script src="script.js"></script>
 </body>
 </html>
